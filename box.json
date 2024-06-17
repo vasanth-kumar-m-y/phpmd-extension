@@ -1,0 +1,13 @@
+{
+  "chmod": "0755",
+  "directories": ["src", "rulesets"],
+  "finder": [
+    {
+      "exclude": ["Tests", "tests"],
+      "in": "vendor"
+    }
+  ],
+  "main": "vendor/bin/phpmd",
+  "output": "build/phpmd-extension.phar",
+  "stub": true
+}
